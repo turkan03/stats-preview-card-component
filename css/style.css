@@ -7,7 +7,7 @@
 
   --heading-cl: hsl(0, 0%, 100%);
   --main-p: hsla(0, 0%, 100%, 0.75);
-  --stat-hd: hsla(0, 0%, 100%, 0.6);
+  --stat-itm-cl: hsla(0, 0%, 100%, 0.6);
 
   --ff-main: "Inter", sans-serif;
   --ff-accent: "Lexend Deca", sans-serif;
@@ -41,9 +41,9 @@ body {
 img {
   display: block;
   max-width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: fill;
 }
-
 /* ************************** */
 /* ***** CARD STYLE ****** */
 .main {
@@ -52,10 +52,35 @@ img {
 }
 
 .card {
-  display: flex;
-
+  max-width: 20.4375rem;
   background-color: var(--card-bc);
 }
+
+.card__content {
+  padding: 2.5rem 1.96875rem 2rem;
+  text-align: center;
+}
+
+.card__header {
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 2rem;
+
+  color: var(--heading-cl);
+
+  margin-bottom: 1rem;
+}
+
+.card__header span {
+  color: var(--accent-cl);
+}
+
+.card__text {
+  color: var(--main-p);
+  margin-bottom: 2.5rem;
+}
+
+/*
 
 .card__content {
   max-width: 35.625rem;
@@ -106,6 +131,20 @@ img {
   opacity: 0.6;
   color: var(--main-p);
 }
+
+@media (max-width: 78em) {
+  .card {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width: 72em) {
+  .card {
+    flex-direction: column;
+  }
+}
+*/
 
 /* ************************** */
 /* ***** FOOTER ****** */

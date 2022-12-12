@@ -42,7 +42,14 @@
           </div>
         </div>
         <div class="card__img">
-          <img src="images/image-header-desktop.jpg" alt="" />
+          <picture>
+            <source
+              srcset="images/image-header-mobile.jpg"
+              media="(max-width:1137px)">
+              <srcset="images/image-header-desktop.jpg"
+              media="(min-width:1137px)">
+              <img src="images/image-header-desktop.jpg" alt="">
+          </picture>
         </div>
       </section>
     </main>

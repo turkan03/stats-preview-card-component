@@ -52,14 +52,13 @@ img {
 }
 
 .card {
-  max-width: 69.375rem;
   display: flex;
 
   background-color: var(--card-bc);
 }
 
 .card__content {
-  max-width: 570px;
+  max-width: 35.625rem;
   padding: 71px 110px 59px 72px;
 }
 
@@ -99,6 +98,7 @@ img {
 }
 
 .stat__itm p:last-child {
+  font-family: var(--ff-accent);
   font-size: 12px;
   line-height: 25px;
   letter-spacing: 1px;
@@ -106,6 +106,7 @@ img {
   opacity: 0.6;
   color: var(--main-p);
 }
+
 /* ************************** */
 /* ***** FOOTER ****** */
 .attribution {

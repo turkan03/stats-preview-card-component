@@ -86,6 +86,7 @@ ul {
 .card__text {
   color: var(--main-p);
   margin-bottom: 2.5rem;
+  opacity: 0.75;
 }
 
 .stat {
@@ -112,11 +113,52 @@ ul {
   color: var(--main-p);
 }
 
+@media (min-width: 75em) {
+  .main {
+    margin: 0;
+  }
+  .card {
+    max-width: 69.375rem;
+    display: flex;
+  }
+
+  img {
+    border-bottom-right-radius: 8px;
+    border-top-left-radius: 0;
+  }
+
+  .card__content {
+    max-width: 35.625rem;
+    padding: 4.4375rem 6.875rem 3.6875rem 4.5rem;
+    order: -1;
+
+    text-align: start;
+  }
+
+  .card__header {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+    margin-bottom: 1.75rem;
+  }
+
+  .card__text {
+    margin-bottom: 4.5rem;
+  }
+
+  .stat {
+    flex-direction: row;
+  }
+
+  .stat__itm {
+    flex-grow: 1;
+  }
+}
+
 /*
 
 .card__content {
-  max-width: 35.625rem;
-  padding: 4.4375rem 6.875rem 3.6875rem 4.5rem;
+  
+  
 }
 
 .card__header {

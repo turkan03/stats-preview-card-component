@@ -30,7 +30,7 @@ body {
   display: grid;
   grid-template-rows: 1fr auto;
 
-  font-size: 15px;
+  font-size: 0.9375rem;
   font-family: var(--ff-main);
   font-weight: 400;
   line-height: 1.5625rem;
@@ -59,15 +59,15 @@ img {
 
 .card__content {
   max-width: 35.625rem;
-  padding: 71px 110px 59px 72px;
+  padding: 4.4375rem 6.875rem 3.6875rem 4.5rem;
 }
 
 .card__header {
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 2.75rem;
   color: var(--heading-cl);
-  margin-bottom: 25px;
+  margin-bottom: 1.5625rem;
 }
 
 .card__header span {
@@ -76,13 +76,13 @@ img {
 
 .card__text {
   color: var(--main-p);
-  margin-bottom: 72px;
+  margin-bottom: 4.5rem;
 }
 
 .stat {
-  max-width: 351.5px;
+  max-width: 21.96875rem;
   display: flex;
-  gap: 63px;
+  gap: 3.9375rem;
 }
 
 .stat__itm {
@@ -90,17 +90,17 @@ img {
 }
 
 .stat__itm p:first-child {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
-  line-height: 29px;
+  line-height: 1.8125rem;
 
   color: var(--heading-cl);
 }
 
 .stat__itm p:last-child {
   font-family: var(--ff-accent);
-  font-size: 12px;
-  line-height: 25px;
+  font-size: 0.75rem;
+  line-height: 1.5625rem;
   letter-spacing: 1px;
   text-transform: uppercase;
   opacity: 0.6;
@@ -110,7 +110,7 @@ img {
 /* ************************** */
 /* ***** FOOTER ****** */
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
   color: var(--main-p);
 

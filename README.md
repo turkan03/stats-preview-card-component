@@ -4,7 +4,6 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 
 ## Table of contents
 
-- [The challenge](#the-challenge)
 - [Screenshot](#screenshot)
 - [Links](#links)
 - [My process](#my-process)
@@ -14,22 +13,14 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-### The challenge
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-
 ### Screenshot
 
 ![](images/Screenshot%202022-12-12%20at%2017-46-39%20Frontend%20Mentor%20Stats%20preview%20card%20component.png)
 
 ### Links
 
-- Solution URL: [https://github.com/turkan03/stats-preview-card-component.git]
-- Live Site URL: [Add live site URL here]
-
-## My process
+- Solution URL: [GitHub](https://github.com/turkan03/stats-preview-card-component.git)
+- Live Site URL:[Netlify](https://effortless-dango-e3756b.netlify.app)
 
 ### Built with
 
@@ -49,9 +40,8 @@ I want to continue focusing on mobile-first coding and try make code more clean 
 
 ### Useful resources
 
-- [https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids] - This helped me for build a layout with CSS Grid.
+- [Example resource 1](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Grids) - This helped me for layout with CSS Grid.
 
 ## Author
 
-- Website - [https://github.com/turkan03]
-- Frontend Mentor - [https://www.frontendmentor.io/profile/turkan03]
+- Frontend Mentor - [@turkan03](https://www.frontendmentor.io/profile/turkan03)

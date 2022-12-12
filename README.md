@@ -20,7 +20,7 @@ This is a solution to the [Stats preview card component challenge on Frontend Me
 ### Links
 
 - Solution URL: [GitHub](https://github.com/turkan03/stats-preview-card-component.git)
-- Live Site URL:[Netlify](https://effortless-dango-e3756b.netlify.app)
+- Live Site URL:[Netlify](https://papaya-sprinkles-f08815.netlify.app/)
 
 ### Built with
 
